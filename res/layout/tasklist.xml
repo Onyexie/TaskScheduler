@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical" android:background="#a4b8cc">
+    <ListView android:layout_height="match_parent" android:id="@id/android:list" android:layout_weight="1" android:layout_width="match_parent"></ListView>
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout1" android:background="#535352" android:gravity="center|bottom" android:layout_gravity="bottom" android:layout_weight="0">
+        <Button android:text="Add Task" android:textColor="#535352" android:textSize="30sp" android:layout_height="wrap_content" android:id="@+id/tasklistbutton1" android:layout_width="wrap_content" android:onClick="myClickHandler"></Button>
+    </LinearLayout>
+</LinearLayout>

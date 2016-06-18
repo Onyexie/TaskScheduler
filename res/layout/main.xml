@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:orientation="vertical"
+	android:layout_height="match_parent" android:background="#a4b8cc">
+	<ScrollView android:id="@+id/scrollView1"
+		android:layout_width="match_parent" android:layout_height="match_parent">
+		<LinearLayout android:id="@+id/linearLayout6" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+			<TextView android:layout_width="wrap_content" android:textColor="#3d4042" android:id="@+id/mtextView4" android:layout_height="wrap_content" android:text="Task:"></TextView>
+			<EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/meditText1" android:text=""></EditText>
+			<TextView android:layout_width="wrap_content" android:textColor="#3d4042" android:id="@+id/mtextView1" android:layout_height="wrap_content" android:text="Start Date:"></TextView>
+			<DatePicker android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/mdatePicker1"></DatePicker>
+			<TextView android:layout_width="wrap_content" android:textColor="#3d4042" android:id="@+id/mtextView3" android:layout_height="wrap_content" android:text="Start Time:"></TextView>
+			<TimePicker android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/mtimePicker1"></TimePicker>
+			<TextView android:layout_width="wrap_content" android:textColor="#3d4042" android:id="@+id/mtextView2" android:layout_height="wrap_content" android:text="Due Date:"></TextView>
+			<DatePicker android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/mdatePicker2"></DatePicker>
+			<LinearLayout android:id="@+id/linearLayout5" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_weight="1.0">
+				<CheckBox android:layout_width="wrap_content" android:textColor="#3d4042" android:id="@+id/mcheckBox1" android:layout_height="wrap_content" android:text="Alarm"></CheckBox>
+				<Button android:layout_width="wrap_content" android:layout_weight="1.0" android:text="Save" android:id="@+id/mbutton1" android:layout_height="wrap_content" android:onClick="myClickHandler"></Button>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
